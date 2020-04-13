@@ -1387,7 +1387,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
-			left: 1.25em;
+			left: 0.5em;
 			line-height: inherit;
 			position: absolute;
 			top: 0;
