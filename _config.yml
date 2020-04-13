@@ -4,8 +4,8 @@
 # Site settings
 title: 프라임 스터디카페
 description: |
-  안녕하세요, <br>
-  24시간 운영되는 무인 스터디카페<br>
+  안녕하세요, 
+  24시간 운영되는 무인 스터디카페
   프라임 스터디카페입니다!
 owner: 프라임 스터디카페 # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
