@@ -117,8 +117,27 @@ layout: landing
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>오시는 길</h2>
+								<p>
+									<!-- * 카카오맵 - 지도퍼가기 -->
+									<!-- 1. 지도 노드 -->
+									<div id="daumRoughmapContainer1586758183640" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
+
+									<!--
+										2. 설치 스크립트
+										* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+									-->
+									<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+									<!-- 3. 실행 스크립트 -->
+									<script charset="UTF-8">
+										new daum.roughmap.Lander({
+											"timestamp" : "1586758183640",
+											"key" : "xvys",
+											"mapHeight" : "360"
+										}).render();
+									</script>
+								</p>
 							</header>
 							<!--<ul class="actions vertical">
 								<li><a href="#" class="button fit special">Activate</a></li>
